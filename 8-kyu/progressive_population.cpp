@@ -9,7 +9,7 @@ public:
         while (p_cur <= p)
         {
             p_cur = p0 * (1 + percent / 100) + aug;
-            p0 = p_cur;
+            p0=p_cur;
             years++;
         }
         return years;
